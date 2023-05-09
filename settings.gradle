@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://software.download.blackberry.com/repository/maven/"
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://software.download.blackberry.com/repository/maven/"
+        }
+    }
+}
+rootProject.name = "TestAppSecureSDK"
+include ':app'
+include ':mylibrary'
